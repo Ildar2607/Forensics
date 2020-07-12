@@ -1,0 +1,110 @@
+/*стили для Blog начало*/
+
+.main-blog {
+    margin-top: 55px;
+  }
+  
+  .blog-box {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  
+  .blog__item {
+    display: flex;
+    margin-left: 85px;
+    align-items: flex-start;
+  }
+  
+  .blog__content {
+    max-width: 420px;
+    margin-left: 64px;
+    margin-right: 70px;
+  }
+  
+  .blog__content p{
+    margin-top: 45px;
+    margin-bottom: 42px;
+  }
+  
+  .blog__vertical {
+    padding-bottom: 5px;
+    color:  #D5333E;
+  }
+  
+  .backgr_grey {
+    background: #EBEBEB;
+  }
+  
+  @media (max-width: 1050px) {
+    .blog-box {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .blog__image img {
+      width: 639px;
+      height: 426px;
+    }
+    .blog-box {
+      padding-top: 104px;
+      padding-bottom: 80px;
+     
+    }
+    .blog__content h3 {
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.01em;
+    }
+    .blog__item {
+      margin-left: 0;
+      margin-top: 43px;
+    }
+    .blog__content p{
+      margin-top: 15px;
+      margin-bottom: 35px;
+    }
+
+  }
+
+  @media (max-width: 610px) {
+    .blog__item {
+      margin-left: 50px;
+    }
+  }
+
+  @media (max-width: 470px) {
+    .main-blog {
+      margin-top: 0;
+    }
+    .blog__item {
+      flex-direction: column;
+      margin-left: 20px;
+    }
+    .blog__vertical {
+      writing-mode: horizontal-tb;
+      transform: rotate(360deg);
+      margin-left: 0;
+    }
+    .blog__content {
+      max-width: 320px;
+      margin-right: 20px;
+      margin-left: 0;
+    }
+    .blog__image img {
+      width: 321px;
+      height: 214px;
+    }
+    .blog__content p{
+      margin-top: 32px;
+      margin-bottom: 35px;
+    }
+    .blog-box {
+      padding-top: 10px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+  
+  
+  /*стили для Blog конец*/

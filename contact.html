@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-block">
+        <div class="header__logo">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="img/Frame.svg" alt="">
+            <span class="logo__text">Экспертиза РФ</span>
+          </a>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="nav-wrap">
+          <ul class="nav">
+            <li class="current"><a href="about.html">О комапании</a></li>
+            <li><a href="transfer.html">Услуги</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header> 
+
+  <!--Блок контакты начало-->
+  <section class="contacts">
+    <div class="container">
+      <div class="contacts-block">
+        <div class="contacts__info">
+          <h4>Адрес</h4>
+          <p>Санкт-Петербург, ул. Запорожская, д. 27/2, 2-й этаж</p>
+        </div>
+        <div class="contacts__info no-wrap">
+          <h4>Контакты</h4>
+          <p><a href="tel:+7 (921) 903 71-22">+7 (921) 903 71-22</a>
+            <a href="mailto:expertizarf@yandex.ru">expertizarf@yandex.ru</a></p>
+        </div>
+        <div class="contacts__info">
+          <h4>Часы работы</h4>
+          <p>С 8:00 до 21:00,<br>без выходных</p>
+        </div>
+      </div>
+    </div>
+    <div class="map" id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2003.902867324132!2d30.462417115765597!3d59.850753276147685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962f6f0e408eeb%3A0xd5cec9e2f94e4bed!2z0JfQsNC_0L7RgNC-0LbRgdC60LDRjyDRg9C7LiwgMjctMiwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MjAxMg!5e0!3m2!1sru!2sru!4v1588602851604!5m2!1sru!2sru" width="100%" height="595" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+  </section>
+
+  <!--Блок контакты конец
+  Form тоже копируй, привали класс light для form и input--> 
+
+
+  <section class="form form__white">
+    <div class="container">
+      <div class="form-block">
+        <div class="form__title">
+          <h3>Хотите работать с нами?</h3>
+          <p>Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+        </div>
+        <div class="form__content">
+          <form action="mail.php" method="POST" id="form">
+            <div class="string">
+              <div class="input__group">
+                <input type="text" name="username" class="input contacts__input input__white" placeholder="* Имя">
+              </div>
+              <div class="input__group">
+                <input type="text" name="company" class="input contacts__input input__white" placeholder="Компания"> 
+              </div>
+            </div>
+            <div class="string">
+              <div class="input__group">
+                <input type="tel" name="userphone" class="input contacts__input phone input__white" placeholder="* Телефон">
+              </div>
+              <div class="input__group">
+                <input type="email" name="email" class="input contacts__input input__white" placeholder="* Электронная почта">
+              </div>
+            </div>
+            <div class="input__group">
+                <input type="message" name="message" class="input contacts__input contacts__input_thin input__white" placeholder="Сообщение">
+            </div>
+            <div class="form__button">
+              <button class="button">Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-block">
+        <div class="footer__logo">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="img/Frame.svg" alt="">Экспертиза РФ
+          </a>
+          <div class="subscribe">
+            <p>
+              Все права защищены © <br>
+  
+              Сайт разработан в 
+              <a class="ava" href="//ava-digital.ru">ava-digital.ru</a>
+            </p>
+          </div>
+        </div>
+
+        <nav class="footer-wrap">
+          <ul class="nav footer__nav">
+            <li class="current"><a href="about.html">О комапании</a></li>
+            <li><a href="transfer.html">Услуги</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

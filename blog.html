@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-block">
+        <div class="header__logo">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="img/Frame.svg" alt="">
+            <span class="logo__text">Экспертиза РФ</span>
+          </a>
+        </div>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <nav class="nav-wrap">
+          <ul class="nav">
+            <li class="current"><a href="about.html">О комапании</a></li>
+            <li><a href="transfer.html">Услуги</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header> 
+
+  <!--Блок BLOG начало-->
+  <div class="main-blog">
+    <section class="blog">
+        <div class="container">
+          <article class="blog-box">
+              <div class="blog__item">
+                  <div class="blog__vertical vertical">
+                      <h2>03.09.18</h2>
+                  </div>
+                  <div class="blog__content">
+                      <h3>Многолетний опыт, высокая квалификация специалистов </h3>
+                      <p>Мы дорожим репутацией и на первое место всегда ставим качество работы, благодаря этому с нами на постоянной основе работают многие министерства.</p>
+                       <a href="article.html">
+                         <div class="btnblock">
+                           <svg class="crossa" width="12" height="12">
+                            <rect x="4.5" width="3" height="12" fill="#D5333E"></rect>
+                            <rect x="12" y="4.5" width="3" height="12" transform="rotate(90 12 4.5)" fill="#D5333E"></rect>
+                           </svg>
+                          <div class="btn1">Подробнее</div>
+                        </div>
+                       </a>
+                  </div>
+              </div>
+              <div class="blog__image">
+                  <img src="img/blog_image.jpg" alt="Blog_image">
+              </div>
+          </article>
+        </div>
+    </section>
+    <section class="blog backgr_grey">
+      <div class="container">
+        <article class="blog-box">
+            <div class="blog__item">
+                <div class="blog__vertical vertical">
+                    <h2>03.09.18</h2>
+                </div>
+                <div class="blog__content">
+                    <h3>Многолетний опыт, высокая квалификация специалистов </h3>
+                    <p>Мы дорожим репутацией и на первое место всегда ставим качество работы, благодаря этому с нами на постоянной основе работают многие министерства.</p>
+                     <a href="article.html">
+                      <div class="btnblock">
+                        <svg class="crossa" width="12" height="12">
+                          <rect x="4.5" width="3" height="12" fill="#D5333E"></rect>
+                          <rect x="12" y="4.5" width="3" height="12" transform="rotate(90 12 4.5)" fill="#D5333E"></rect>
+                        </svg>
+                        <div class="btn1">Подробнее</div>
+                    </div>
+                     </a>
+                </div>
+            </div>
+            <div class="blog__image">
+                <img src="img/blog_image.jpg" alt="Blog_image">
+            </div>
+          </article>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <div class="blog-box">
+            <div class="blog__item">
+                <div class="blog__vertical vertical">
+                    <h2>03.09.18</h2>
+                </div>
+                <div class="blog__content">
+                    <h3>Многолетний опыт, высокая квалификация специалистов </h3>
+                    <p>Мы дорожим репутацией и на первое место всегда ставим качество работы, благодаря этому с нами на постоянной основе работают многие министерства.</p>
+                    <a href="#">
+                      <div class="btnblock">
+                        <svg class="crossa" width="12" height="12">
+                          <rect x="4.5" width="3" height="12" fill="#D5333E"></rect>
+                          <rect x="12" y="4.5" width="3" height="12" transform="rotate(90 12 4.5)" fill="#D5333E"></rect>
+                        </svg>
+                        <div class="btn1">Подробнее</div>
+                     </div>
+                    </a>
+                </div>
+            </div>
+            <div class="blog__image">
+                <img src="img/blog_image.jpg" alt="Blog_image">
+            </div>
+          </div>
+      </div>
+    </section>  
+  </div>
+
+  <!--Блок BLOG конец--> 
+
+
+  <section class="form">
+    <div class="container">
+      <div class="form-block">
+        <div class="form__title">
+          <h3>Хотите работать с нами?</h3>
+          <p>Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+        </div>
+        <div class="form__content">
+          <form action="mail.php" method="POST" id="form">
+            <div class="string">
+              <div class="input__group">
+                <input type="text" name="username" class="input contacts__input" placeholder="* Имя">
+              </div>
+              <div class="input__group">
+                <input type="text" name="company" class="input contacts__input" placeholder="Компания"> 
+              </div>
+            </div>
+            <div class="string">
+              <div class="input__group">
+                <input type="tel" name="userphone" class="input contacts__input phone" placeholder="* Телефон">
+              </div>
+              <div class="input__group">
+                <input type="email" name="email" class="input contacts__input" placeholder="* Электронная почта">
+              </div>
+            </div>
+            <div class="input__group">
+                <input type="message" name="message" class="input contacts__input contacts__input_thin" placeholder="Сообщение">
+            </div>
+            <div class="form__button">
+              <button class="button">Отправить
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-block">
+        <div class="footer__logo">
+          <a href="index.html" class="logo">
+            <img class="logo__img" src="img/Frame.svg" alt="">Экспертиза РФ
+          </a>
+          <div class="subscribe">
+            <p>
+              Все права защищены © <br>
+  
+              Сайт разработан в 
+              <a class="ava" href="//ava-digital.ru">ava-digital.ru</a>
+            </p>
+          </div>
+        </div>
+
+        <nav class="footer-wrap">
+          <ul class="nav footer__nav">
+            <li class="current"><a href="about.html">О комапании</a></li>
+            <li><a href="transfer.html">Услуги</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
